@@ -13,6 +13,9 @@ Use the mouse to pin-point the location to which the line segment is being drawn
 Just click and play. If the ball hits the side - YOU LOSE! After each level, platforms are randomly generated to increase the difficulty.
 
 
+**NOTE: THE COLLISIONS ONLY WORK WHEN BALL FALLS DOWNWARDS SO AS TO AVOID IT GETTING TRAPPED**
+
+Best of luck🤞 ahead! 
 
 ## Screenshots
 
