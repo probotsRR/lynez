@@ -56,7 +56,7 @@ export class LineS {
             var d = Math.abs((pos2.x - pos1.x) * (pos1.y - posball.y) - (pos2.y - pos1.y) * (pos1.x - posball.x));
             d = d / Math.sqrt(den);
             if (d <= 20) {
-                if (this.ball.vel.y > 0) {
+                // if (this.ball.vel.y > 0) {
                     this.ball.vel.y = -1;
                     var m = (pos2.y - pos1.y) / (pos2.x - pos1.x);
                     m=Math.min(m,100);
@@ -64,7 +64,7 @@ export class LineS {
                     this.ball.vel = this.unit(this.ball.vel);
                     this.ball.vel = this.mult(9, this.ball.vel)
                     this.Bounce_sound.play()
-                }
+                // }
                 
             }
         }
